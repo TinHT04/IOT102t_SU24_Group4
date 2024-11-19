@@ -36,7 +36,7 @@ This innovative Bluetooth-controlled traffic light system promises to revolution
 ## Authors
 - Pham Minh Tuan
 - Hoang Trung Tin (Leader)
-- Huynh Quoc Khang [GitHub](https://github.com/KhangHuynh09
+- Huynh Quoc Khang [GitHub](https://github.com/KhangHuynh09)
 - Nguyen Ngoc Trai
 ## Supervisor
 - Duc Ngoc Minh Dang
