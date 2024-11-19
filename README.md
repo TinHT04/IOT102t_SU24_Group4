@@ -47,4 +47,3 @@ For more information, don't hesitate to get in touch with us at:
 - tinhtse182892@fpt.edu.vn 
 - khanghqse182958@fpt.edu.vn
 - trainnse182916@fpt.edu.vn
-- ducdnm2@fe.edu.vn (Supervisor)
