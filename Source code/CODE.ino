@@ -198,18 +198,18 @@ void loop() {
 }
 
 void greenOn() {
-   if (flagL == 0) {                          //nếu cờ logic ko có
-       digitalWrite(red_led2, HIGH);           //đèn cột 2 sáng đỏ
-       digitalWrite(green_led, HIGH);        //đèn cột 1 sáng xanh
+   if (flagL == 0) {                              //nếu cờ logic ko có
+       digitalWrite(red_led2, HIGH);              //đèn cột 2 sáng đỏ
+       digitalWrite(green_led, HIGH);             //đèn cột 1 sáng xanh
    } else {                                       //nếu có cờ logic
-       digitalWrite(green_led2, LOW);              //cột 2 tắt xanh bật vàng
+       digitalWrite(green_led2, LOW);             //cột 2 tắt xanh bật vàng
        digitalWrite(red_led, HIGH);               //cột 1 giữ đỏ
        digitalWrite(yellow_led2, HIGH);
-       startCountdown(2);               //đợi 3s
+       startCountdown(2);                         //đợi 3s
        waitForCountdownX();
        turnOffLights();
-       digitalWrite(red_led2, HIGH);           //đèn cột 2 sáng đỏ
-       digitalWrite(green_led, HIGH);        //đèn cột 1 sáng xanh
+       digitalWrite(red_led2, HIGH);              //đèn cột 2 sáng đỏ
+       digitalWrite(green_led, HIGH);             //đèn cột 1 sáng xanh
    }
 }
 
@@ -241,7 +241,7 @@ void automaY() {
 }
 void automa() {
   displayO();                       //8x8 hiện chữ X (ờ t đặt ngược vậy đó chứ ko phải ghi nhầm đâu, tại t lười sửa, xin lỗi)
-  turnOffLights();                  //chị Dậu
+  turnOffLights();                  //hàm tắt đèn
   digitalWrite(green_led, HIGH);    //đèn cột 1 sáng xanh
   digitalWrite(red_led2, HIGH);     //đèn cột 2 sáng đỏ
   countdown(3);
@@ -261,7 +261,7 @@ void automa() {
     waitForCountdown();
     
     displayX();
-    turnOffLights();                //chị Dậu
+    turnOffLights();                //hàm tắt đèn
     digitalWrite(green_led2, HIGH); //cột 1 sáng đỏ, cột 2 sáng xanh
     digitalWrite(red_led, HIGH);
     countdown(6);
@@ -283,7 +283,7 @@ void waitForCountdownSP() {
     startCountdown(2);
     waitForCountdown();
 
-    turnOffLights();                        //chị Dậu
+    turnOffLights();                        //hàm tắt đèn
     displayX();                             //8x8 hiện O
     digitalWrite(red_led, HIGH);            //cột 1 sáng đỏ, cột 2 sáng xanh
     digitalWrite(green_led2, HIGH);
@@ -485,7 +485,7 @@ void countdown(int count) {
   }
 }
 
-void turnOffLights() {            //chị Dậu
+void turnOffLights() {            //hàm tắt đèn
   digitalWrite(red_led, LOW);
   digitalWrite(yellow_led, LOW);
   digitalWrite(green_led, LOW);
