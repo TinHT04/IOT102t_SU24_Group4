@@ -34,10 +34,10 @@ The system consists of three major components:
 This innovative Bluetooth-controlled traffic light system promises to revolutionize traffic management at intersections, providing a safer and more efficient traffic experience for all road users.
 
 ## Authors
-- Pham Minh Tuan
+- Pham Minh Tuan [GitHub](https://github.com/MinhTuan0269)
 - Hoang Trung Tin (Leader)
 - Huynh Quoc Khang [GitHub](https://github.com/KhangHuynh09)
-- Nguyen Ngoc Trai
+- Nguyen Ngoc Trai [GitHub](https://github.com/TraiNguyen391)
 ## Supervisor
 - Duc Ngoc Minh Dang
 
